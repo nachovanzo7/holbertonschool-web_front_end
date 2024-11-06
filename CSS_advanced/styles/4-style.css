@@ -4,6 +4,7 @@ html {
 
 body {
     color: var(--text-color);
+    font-family: var(--font-family-base);
 }
 
 a {
@@ -33,4 +34,37 @@ a {
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+
+    --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+h1
+{
+    font-family: font-family-title;
+}
+
+h2
+{
+    font-family: font-family-title;
+}
+
+h3
+{
+    font-family: font-family-title;
+}
+
+h4
+{
+    font-family: font-family-title;
+}
+
+h5
+{
+    font-family: font-family-title;
+}
+
+h6
+{
+    font-family: font-family-title;
+}
+
