@@ -22,19 +22,19 @@ a {
 
 .visually-hidden
 {
-    text-align: center;
+    text-decoration: dotted;
     display: none;
 }
 
 .card-category
 {
-    text-align: center;
+    text-decoration: dotted;
     color: var(--color-primary);
 }
 
 .section-tagline
 {
-    text-align: center;
+    text-decoration: dotted;
     color: var(--color-primary);
 }
 
