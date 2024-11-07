@@ -22,19 +22,16 @@ a {
 
 .visually-hidden
 {
-    text-decoration: dotted;
     display: none;
 }
 
 .card-category
 {
-    text-decoration: dotted;
     color: var(--color-primary);
 }
 
 .section-tagline
 {
-    text-decoration: dotted;
     color: var(--color-primary);
 }
 
@@ -105,3 +102,7 @@ h6
 
 }
 
+a
+{
+    text-decoration: none;
+}
