@@ -131,4 +131,16 @@ h6
 a
 {
     text-decoration: none;
+    font-style: italic; 
+}
+
+a:visited {
+    color: #6f42c1; 
+}
+a:hover {
+    text-decoration: underline; 
+}
+
+a:active {
+    background-color: var(--color-light-grey); 
 }
