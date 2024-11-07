@@ -131,11 +131,10 @@ h6
 a[href]
 {
     text-decoration: none;
-    font-style: italic; 
 }
 
 a[href]:visited {
-    color: #6f42c1; 
+    font-style: italic;
 }
 a[href]:hover {
     text-decoration: underline; 
