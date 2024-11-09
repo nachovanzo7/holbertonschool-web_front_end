@@ -205,7 +205,10 @@ a {
     --header-logo-link-left: 0;
 
     --nav-item-link-hover: var(--color-white);
-  }
+
+    --transition-duration: 0.3s;
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
+}
 
 
 h1
@@ -467,4 +470,29 @@ footer ul
     font-size: 10rem;
     z-index: -1;
   }
+
+  .card-work:hover .card-image {
+    transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+  }
   
+  .card-work:hover .card-outer {
+    transform: scale(0.95);
+  }
+  
+  .nav .nav-link::before {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+  }
+  
+  .button:hover {
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
+  }
+  
+  .card-work:hover .card-image {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+  }
+  
+  .card-work .card-inner {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+  }
