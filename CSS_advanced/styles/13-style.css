@@ -133,13 +133,13 @@ a[href]
     text-decoration: none;
 }
 
-a:visited {
+a[href]:visited {
     font-style: italic;
 }
-a:hover {
+a[href]:hover {
     text-decoration: underline; 
 }
 
-a:active {
+a[href]:active {
     background-color: var(--color-light-grey); 
 }
